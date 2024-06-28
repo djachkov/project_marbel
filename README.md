@@ -41,7 +41,6 @@ git clone git@github.com:djachkov/project_marbel.git ProjectMarbel
 ```
 
 That will create a new directory with the name `ProjectMarbel` and will clone the repository to that folder.
-
 After that, you can select the folder in the **UnityHub** to add an existed project. 
 
 ## Using branches
