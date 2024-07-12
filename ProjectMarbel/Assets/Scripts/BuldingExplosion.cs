@@ -12,6 +12,7 @@ public class BuldingExplosion : MonoBehaviour
     void Start()
     {
         buildingParts = GameObject.FindGameObjectsWithTag("Building Parts");
+        // Useless Dmitrii's comment in here!
     }
 
     // Update is called once per frame
