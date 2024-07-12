@@ -4,7 +4,7 @@
 
 First, you need to install Git for your platform from here:
 https://git-scm.com/downloads
-
+blah-blahj
 >Please, follow the installation guides carefully and change settings only if you know what you're doing. 
 
 ## Git LFS
