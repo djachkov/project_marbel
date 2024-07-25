@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class SelectionManager : MonoBehaviour
 {
@@ -39,7 +38,7 @@ public class SelectionManager : MonoBehaviour
             }          
         }
 
-        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         
         RaycastHit hit;
 
@@ -62,7 +61,7 @@ public class SelectionManager : MonoBehaviour
                 }
 
                 string marbleName = selected_obj_parent.GetComponent<MarbleStats>().marbleName;
-                if (Mouse.current.leftButton.wasPressedThisFrame)
+                if (Input.GetMouseButtonDown(0))
                 {
                     Debug.Log("Selected Marble: " + marbleName);
                     if (player1 == null)
