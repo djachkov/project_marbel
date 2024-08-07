@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MarbleSelectionTest.unity
     guid: ea5e81ef82d891c6c8cc60e748733d37
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/TutorialLevel.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity

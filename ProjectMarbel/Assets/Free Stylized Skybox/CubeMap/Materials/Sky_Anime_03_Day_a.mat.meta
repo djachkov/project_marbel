@@ -1,10 +1,5 @@
 fileFormatVersion: 2
-guid: 5ed1cb1d346fcfa48acbb64507bc552d
-labels:
-- Ground
-- Nature
-- Pattern
-- Terrain
+guid: 55e64e617a8bfff4ba846574e2651eb9
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
