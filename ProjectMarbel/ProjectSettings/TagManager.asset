@@ -7,6 +7,7 @@ TagManager:
   - pyramid
   - plane
   - Building Parts
+  - Road
   layers:
   - Default
   - TransparentFX
