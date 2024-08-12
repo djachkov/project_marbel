@@ -9,24 +9,24 @@ public class CountdownTimer : MonoBehaviour
     public Color warningColor = Color.red;  // Color when time is low
     public float warningThreshold = 60f;  // Time in seconds when the color changes to warningColor
 
-    private float currentTime;
+    private float remainingTime;
 
     void Start()
     {
-        currentTime = countdownTime;
+        remainingTime = countdownTime;
         UpdateTimerText();
     }
 
     void Update()
     {
-        if (currentTime > 0)
+        if (remainingTime > 0)
         {
-            currentTime -= Time.deltaTime;
+            remainingTime -= Time.deltaTime;
             UpdateTimerText();
         }
         else
         {
-            currentTime = 0;
+            remainingTime = 0;
             UpdateTimerText();
             TimerEnded();
         }
@@ -34,11 +34,11 @@ public class CountdownTimer : MonoBehaviour
 
     void UpdateTimerText()
     {
-        int minutes = Mathf.FloorToInt(currentTime / 60);
-        int seconds = Mathf.FloorToInt(currentTime % 60);
+        int minutes = Mathf.FloorToInt(remainingTime / 60);
+        int seconds = Mathf.FloorToInt(remainingTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         
-        if (currentTime <= warningThreshold) // Change color based on the remaining time
+        if (remainingTime <= warningThreshold) // Change color based on the remaining time
         {
             timerText.color = warningColor;
         }
