@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -28,11 +29,19 @@ public class PlayerMovement : MonoBehaviour
             {
                 forceDirection = -hitInfo.normal;
                 rb = hitInfo.rigidbody;
-                if(Input.GetMouseButton(0))
+                if(Input.GetMouseButton(0) && MarbleSpeed(rb) <=  0.01)
                 {
                     rb.AddForce(forceDirection * force, ForceMode.Impulse);
                 }
             }
         }
+    }
+
+    float MarbleSpeed(Rigidbody rb)
+    {
+        var vel = rb.velocity;
+        var speed = vel.magnitude;
+
+        return speed;
     }
 }
