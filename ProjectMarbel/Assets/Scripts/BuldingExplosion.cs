@@ -24,7 +24,7 @@ public class BuldingExplosion : MonoBehaviour
     //{
       //  if (collision.collider.comparetag("player"))
         //{
-         //   foreach 
+         //   foreach
       //  }
     //}
 }
