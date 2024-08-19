@@ -7756,7 +7756,10 @@ GameObject:
   - component: {fileID: 2034979798}
   - component: {fileID: 2034979802}
   - component: {fileID: 2034979799}
+<<<<<<< HEAD
   - component: {fileID: 2034979803}
+=======
+>>>>>>> 86a9703 (Commit to readd the input modules to the event handlers on main menu and marble selection.)
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
