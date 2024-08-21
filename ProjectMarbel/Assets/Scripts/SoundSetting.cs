@@ -25,6 +25,11 @@ public class SoundSetting : MonoBehaviour
         if (PlayerPrefs.HasKey("MasterVolume"))
         {
             masterSlider.value = PlayerPrefs.GetFloat("MasterVolume");
+            
+        }
+        else
+        {
+            masterSlider.value = 0.5f;
         }
 
         if (PlayerPrefs.HasKey("VFXrVolume"))
@@ -32,14 +37,21 @@ public class SoundSetting : MonoBehaviour
             vfxSlider.value = PlayerPrefs.GetFloat("VFXrVolume");
         }
 
+        else
+        {
+            vfxSlider.value = 0.5f;
+        }
+
         if (PlayerPrefs.HasKey("MusicVolume"))
         {
             musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
         }
 
-        setMasterVolume();
-        setVFXVolume();
-        setMuiscVolume();
+        else
+        {
+            musicSlider.value = 0.5f;
+        }
+
     }
 
     public void setMasterVolume()
