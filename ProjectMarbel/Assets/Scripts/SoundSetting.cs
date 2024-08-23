@@ -54,6 +54,17 @@ public class SoundSetting : MonoBehaviour
 
     }
 
+    public void reset()
+    {
+        masterSlider.value = 0.5f;
+        vfxSlider.value = 0.5f;
+        musicSlider.value = 0.5f;
+
+        setMasterVolume();
+        setVFXVolume();
+        setMuiscVolume();
+    }
+
     public void setMasterVolume()
     {
         masterVolume = Mathf.Log10(masterSlider.value) * 20;
