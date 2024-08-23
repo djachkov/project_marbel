@@ -64,6 +64,17 @@ public class SoundSetting : MonoBehaviour
 >>>>>>> 86a9703 (Commit to readd the input modules to the event handlers on main menu and marble selection.)
     }
 
+    public void reset()
+    {
+        masterSlider.value = 0.5f;
+        vfxSlider.value = 0.5f;
+        musicSlider.value = 0.5f;
+
+        setMasterVolume();
+        setVFXVolume();
+        setMuiscVolume();
+    }
+
     public void setMasterVolume()
     {
         masterVolume = Mathf.Log10(masterSlider.value) * 20;
