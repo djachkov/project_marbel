@@ -23,7 +23,7 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
         //locks the camera view when left Control is pressed
-        if (Marble1RB.velocity == Vector3.zero && Marble2RB.velocity == Vector3.zero)
+        if (Marble1RB.velocity.magnitude <= 0.1 && Marble2RB.velocity.magnitude <= 0.1)
         {
             if (Input.GetKey(KeyCode.LeftControl))
             {
