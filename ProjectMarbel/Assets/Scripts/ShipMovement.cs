@@ -45,17 +45,17 @@ public class ShipMovement : MonoBehaviour
 
         //timeTracker = Time.time;
 
-        if (transform.position.z >= raduis-0.0015 && Time.time > 1.0)
-        {
-            completeRounds++;
+        //if (transform.position.z >= raduis-0.0015 && Time.time > 1.0)
+        //{
+        //    completeRounds++;
 
-            while(timeInterval > 0)
-            {
-                speed = 0;
-                timeInterval-=Time.deltaTime;
-            }
-            timeInterval = 10.0f;
-            speed = 0.05f;
-        }
+        //    while(timeInterval > 0)
+        //    {
+        //        speed = 0;
+        //        timeInterval-=Time.deltaTime;
+        //    }
+        //    timeInterval = 10.0f;
+        //    speed = 0.05f;
+        //}
     }
 }
