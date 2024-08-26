@@ -52,6 +52,7 @@ public class SoundSetting : MonoBehaviour
             musicSlider.value = 0.5f;
         }
 
+<<<<<<< HEAD
     }
 
     public void reset()
@@ -63,6 +64,8 @@ public class SoundSetting : MonoBehaviour
         setMasterVolume();
         setVFXVolume();
         setMuiscVolume();
+=======
+>>>>>>> tempForRebase2
     }
 
     public void setMasterVolume()

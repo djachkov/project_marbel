@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: fa7c4e1cdd6de394d9e27e6f6a4689c0
+<<<<<<< HEAD:ProjectMarbel/Assets/large_building_E_broken.fbx.meta
+guid: b6c3a8c07a6210c6a997bd5e776cf287
+=======
+guid: e56cea9ca25b2734982e7cbfcba8c582
+>>>>>>> tempForRebase2:ProjectMarbel/Assets/Other Assets/Modified/wall-corner-slant_broken.fbx.meta
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
