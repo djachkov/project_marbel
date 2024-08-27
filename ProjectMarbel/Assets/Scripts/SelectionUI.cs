@@ -93,7 +93,7 @@ public class SelectionUI : MonoBehaviour
 
     public void go()
     {
-        toScene("blank");
+        toScene("CombinedLevels");
     }
 
     public void fromNullScene()
