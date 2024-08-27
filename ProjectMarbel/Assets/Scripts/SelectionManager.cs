@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SelectionManager : MonoBehaviour
 {
@@ -13,6 +15,10 @@ public class SelectionManager : MonoBehaviour
 
     [SerializeField] public Transform player1;
     [SerializeField] public Transform player2;
+
+    [SerializeField] public TMP_Text promptText;
+
+    [SerializeField] public Button playBtn;
 
     private Vector3 offset;
 
@@ -67,10 +73,13 @@ public class SelectionManager : MonoBehaviour
                     if (player1 == null)
                     {
                         player1 = selected_obj_parent;
+                        promptText.text = "Player 2 select";
                     }
                     else
                     {
                         player2 = selected_obj_parent;
+                        promptText.text = "PLAY!";
+                        playBtn.interactable = true;
                     }
                 }
                 selected_parent = selected_obj_parent;

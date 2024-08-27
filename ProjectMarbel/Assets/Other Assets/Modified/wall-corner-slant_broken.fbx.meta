@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:ProjectMarbel/Assets/Other Assets/Modified/wall-corner-slant_broken.fbx.meta
 guid: e56cea9ca25b2734982e7cbfcba8c582
+=======
+guid: b6c3a8c07a6210c6a997bd5e776cf287
+>>>>>>> 86a9703 (Commit to readd the input modules to the event handlers on main menu and marble selection.):ProjectMarbel/Assets/large_building_E_broken.fbx.meta
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []

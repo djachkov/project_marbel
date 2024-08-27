@@ -31,6 +31,10 @@ public class SoundSetting : MonoBehaviour
         {
             masterSlider.value = 0.5f;
         }
+        else
+        {
+            masterSlider.value = 0.5f;
+        }
 
         if (PlayerPrefs.HasKey("VFXrVolume"))
         {
@@ -52,6 +56,23 @@ public class SoundSetting : MonoBehaviour
             musicSlider.value = 0.5f;
         }
 
+<<<<<<< HEAD
+=======
+        setMasterVolume();
+        setVFXVolume();
+        setMuiscVolume();
+>>>>>>> 86a9703 (Commit to readd the input modules to the event handlers on main menu and marble selection.)
+    }
+
+    public void reset()
+    {
+        masterSlider.value = 0.5f;
+        vfxSlider.value = 0.5f;
+        musicSlider.value = 0.5f;
+
+        setMasterVolume();
+        setVFXVolume();
+        setMuiscVolume();
     }
 
     public void setMasterVolume()

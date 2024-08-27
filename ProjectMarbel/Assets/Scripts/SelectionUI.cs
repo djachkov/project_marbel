@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class SelectionUI : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class SelectionUI : MonoBehaviour
     GameObject marbles;
     [SerializeField] GameObject selected;
     private TMP_Text name_text;
+    [SerializeField] public TMP_Text promptText;
+
+    [SerializeField] public Button playBtn;
+
     
     [SerializeField] GameObject NameUI;
     [SerializeField] GameObject SizeBar;
@@ -68,12 +73,27 @@ public class SelectionUI : MonoBehaviour
     {
         if(marbles.GetComponent<SelectionManager>().player1 != null)
         {
-            marbles.GetComponent<SelectionManager>().player1 = null;
+            if(marbles.GetComponent<SelectionManager>().player2 != null)
+            {
+                marbles.GetComponent<SelectionManager>().player2 = null;
+                promptText.text = "Player 2 select";
+                playBtn.interactable = false;
+            }
+            else
+            {
+                marbles.GetComponent<SelectionManager>().player1 = null;
+                promptText.text = "Player 1 select";
+            }
         }
         else
         {
             toScene("MainMenu");
         }
+    }
+
+    public void go()
+    {
+        toScene("blank");
     }
 
     public void fromNullScene()
