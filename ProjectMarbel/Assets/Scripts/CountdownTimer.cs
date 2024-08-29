@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CountdownTimer : MonoBehaviour
 {
@@ -22,13 +23,13 @@ public class CountdownTimer : MonoBehaviour
         if (remainingTime > 0)
         {
             remainingTime -= Time.deltaTime;
+            if (remainingTime < 0) remainingTime = 0;  // Prevent going negative
             UpdateTimerText();
-        }
-        else
-        {
-            remainingTime = 0;
-            UpdateTimerText();
-            TimerEnded();
+
+            if (remainingTime == 0)
+            {
+                TimerEnded();
+            }
         }
     }
 
@@ -50,7 +51,6 @@ public class CountdownTimer : MonoBehaviour
 
     void TimerEnded()
     {
-        // ADD Victory screen here
-        Debug.Log("Countdown Timer Ended");
+        SceneManager.LoadScene("EndScreen");
     }
 }
