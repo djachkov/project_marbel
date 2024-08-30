@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class CountdownTimer : MonoBehaviour
 {
-    public Text timerText;  // UI Text element to display the countdown
+    [SerializeField]
+    private Text timerText;  // UI Text element to display the countdown
     public float countdownTime = 300f;  // Initial countdown time in seconds
     public Color normalColor = Color.white;  // Color when time is sufficient
     public Color warningColor = Color.red;  // Color when time is low
@@ -15,6 +16,8 @@ public class CountdownTimer : MonoBehaviour
     void Start()
     {
         remainingTime = countdownTime;
+        Debug.Log("CountdownTimer: Start");
+        Debug.Log(timerText);
         UpdateTimerText();
     }
 
@@ -38,7 +41,7 @@ public class CountdownTimer : MonoBehaviour
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds = Mathf.FloorToInt(remainingTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-        
+
         if (remainingTime <= warningThreshold) // Change color based on the remaining time
         {
             timerText.color = warningColor;

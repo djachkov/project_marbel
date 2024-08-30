@@ -77,7 +77,7 @@ public class MainMenu : MonoBehaviour
 
         public void toHotseat()
     {
-        toScene("NotGonnaBeThereYet");
+        toScene("Level1-CityCenter");
     }
 
     public void fromNullScene()
