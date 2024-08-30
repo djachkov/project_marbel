@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 1726457915}
   - component: {fileID: 1726457914}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: PersistentDataManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -641,11 +641,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1CurrentMarble: {fileID: 0}
   player2CurrentMarble: {fileID: 0}
-  masterVolumeLevel: 0
-  vfxVolumeLevel: 0
-  musicVolumeLevel: 0
-  graphicsResolution: 0
-  graphicsFullscreen: 0
+  mainMenuMusic: {fileID: 0}
+  inGameMusic: {fileID: 0}
+  victoryMusic: {fileID: 0}
+  player1Score: 0
+  player2Score: 0
 --- !u!4 &1726457915
 Transform:
   m_ObjectHideFlags: 0
