@@ -8,6 +8,10 @@ TagManager:
   - plane
   - Building Parts
   - Road
+  - Building_Small
+  - Building_Medium
+  - Building_Big
+  - Building_Huge
   layers:
   - Default
   - TransparentFX
