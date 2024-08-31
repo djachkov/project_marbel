@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
         player2.LoadPlayerData(2);
         player1.ActivatePlayer();
         player2.DeactivatePlayer();
+        Debug.Log("Active player: " + activePlayer.GetPlayerName());
         playerUIManager.UpdatePlayerName(activePlayer.GetPlayerName());
         // TODO: Implement score tracking
         // playerUIManager.UpdatePlayerScore(activePlayer.score);

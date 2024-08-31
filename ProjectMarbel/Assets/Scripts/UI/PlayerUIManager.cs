@@ -1,32 +1,42 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerUIManager : MonoBehaviour
 {
     [SerializeField]
-    private Text playerNameText; // Reference to the UI Text component
+    private TMP_Text playerNameText;
 
     [SerializeField]
-    private Text PlayerScore; // Reference to the UI Text component
+    private TMP_Text Player1Score;
+    [SerializeField]
+
+    private TMP_Text Player2Score;
 
     // This method updates the player name displayed on the UI
     public void Start()
     {
-        playerNameText.text = "No Player";
-        PlayerScore.text = "Score: 0";
+        Debug.Log("PlayerUIManager: Start");
+        // playerNameText.text = "No Player";
+        Player1Score.text = "00";
+        Player2Score.text = "00";
     }
     public void UpdatePlayerName(string playerName)
     {
+        Debug.Log("PlayerUIManager: UpdatePlayerName: " + playerName);
         if (playerNameText != null)
         {
-            playerNameText.text = "Player: " + playerName;
+            playerNameText.text = playerName;
         }
     }
-    public void UpdatePlayerScore(string score)
+    public void UpdatePlayerScore(int playerIndex, string score)
     {
         if (playerNameText != null)
         {
-            PlayerScore.text = "Score: " + score;
+            if (playerIndex == 1)
+                Player1Score.text = "Score: " + score;
+            else
+                Player2Score.text = "Score: " + score;
         }
     }
 }

@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using TMPro;
 public class CountdownTimer : MonoBehaviour
 {
     [SerializeField]
-    private Text timerText;  // UI Text element to display the countdown
+    private TMP_Text timerText;  // UI Text element to display the countdown
     public float countdownTime = 300f;  // Initial countdown time in seconds
     public Color normalColor = Color.white;  // Color when time is sufficient
     public Color warningColor = Color.red;  // Color when time is low
