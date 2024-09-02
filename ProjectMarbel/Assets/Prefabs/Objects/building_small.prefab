@@ -207,12 +207,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3176072700333791290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5db4f6cceafc37c4f9e0544a16e8a3de, type: 3}
+  m_Script: {fileID: 11500000, guid: 913468f5fb5b26f4598f23ec17037867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _replacement: {fileID: 3491758928094929791, guid: 7dd7d26a19b53d745891c7474b25fdc1,
     type: 3}
-  _breakForce: 2.4
+  _breakForce: 2
   _collisionMultiplier: 50
   _broken: 0
 --- !u!1 &4367234956267902123

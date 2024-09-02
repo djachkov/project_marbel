@@ -443,11 +443,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4448691589684300994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5db4f6cceafc37c4f9e0544a16e8a3de, type: 3}
+  m_Script: {fileID: 11500000, guid: 913468f5fb5b26f4598f23ec17037867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _replacement: {fileID: 8641278378860102891, guid: 0fb0d8ac7b4c07a4786b6d992c3b87b9,
     type: 3}
-  _breakForce: 6
+  _breakForce: 2
   _collisionMultiplier: 50
   _broken: 0
