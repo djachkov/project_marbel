@@ -476,6 +476,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 36191960}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &52296976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3277887584970733703, guid: 2259805c6fa05374ca8151931a94c903,
+    type: 3}
+  m_PrefabInstance: {fileID: 848979493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &68980753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9085,6 +9091,59 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 722756419}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &723131640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723131641}
+  - component: {fileID: 723131642}
+  m_Layer: 0
+  m_Name: ScoreController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723131641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723131640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &723131642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723131640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eff3bae9d37e147718ed82498689ae27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1Tag: Player_1
+  player2Tag: Player_2
+  buildingSmallTag: Building_Small
+  buildingMediumTag: Building_Medium
+  buildingBigTag: Building_Big
+  buildingHugeTag: Building_Huge
+  buildingSmallPoints: 1
+  buildingMediumPoints: 2
+  buildingBigPoints: 4
+  buildingHugePoints: 6
 --- !u!1001 &734160816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9572,6 +9631,12 @@ Transform:
   m_Father: {fileID: 1416403670}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &760599485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3277887584766284026, guid: 2259805c6fa05374ca8151931a94c903,
+    type: 3}
+  m_PrefabInstance: {fileID: 848979493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &778728692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10528,6 +10593,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3277887584766284026, guid: 2259805c6fa05374ca8151931a94c903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3277887584970733703, guid: 2259805c6fa05374ca8151931a94c903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player_1
       objectReference: {fileID: 0}
     - target: {fileID: 3277887584970733707, guid: 2259805c6fa05374ca8151931a94c903,
         type: 3}
@@ -14330,8 +14405,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1Name: TEST PLAYER 1
   player2Name: TEST PLAYER 2
-  player1CurrentMarble: {fileID: 0}
-  player2CurrentMarble: {fileID: 0}
+  player1CurrentMarble: {fileID: 52296976}
+  player2CurrentMarble: {fileID: 760599485}
   mainMenuMusic: {fileID: 0}
   inGameMusic: {fileID: 0}
   victoryMusic: {fileID: 0}
@@ -26882,7 +26957,7 @@ PrefabInstance:
     - target: {fileID: 1823931451825575406, guid: 87d909f853c12af45a441fe256a8eddc,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.86048645
+      value: 0.86048657
       objectReference: {fileID: 0}
     - target: {fileID: 1823931451825575406, guid: 87d909f853c12af45a441fe256a8eddc,
         type: 3}
@@ -26892,7 +26967,7 @@ PrefabInstance:
     - target: {fileID: 1823931451825575406, guid: 87d909f853c12af45a441fe256a8eddc,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.37904298
+      value: 0.37904304
       objectReference: {fileID: 0}
     - target: {fileID: 1823931451825575406, guid: 87d909f853c12af45a441fe256a8eddc,
         type: 3}

@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 2384777618660977972}
   m_Layer: 0
   m_Name: building_big
-  m_TagString: Untagged
+  m_TagString: Building_Big
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
