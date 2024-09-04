@@ -16,14 +16,7 @@ public class TrajectoryDrawer : MonoBehaviour
     [Range(0.01f, 0.25f)]
     private float TimeBetweenPoints = 0.1f;
 
-    private Transform InitialParent;
-    private Vector3 InitialLocalPosition;
-    private Quaternion InitialRotation;
-
-    private bool IsMarbelThrowAvailable = true;
     private LayerMask MarbelCollisionMask;
-    private Vector3 initialMousePosition;
-    private Vector3 forceDirection;
 
     public void DisableLineRenderer()
     {

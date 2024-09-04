@@ -11,8 +11,10 @@ public class CameraSwitcher : MonoBehaviour
     {
         if (playerCameras.Length > 0)
         {
-            currentCamera = playerCameras[currentPlayerIndex];
-            UpdateCamera();
+            currentCamera = playerCameras[0];
+            currentCamera.gameObject.SetActive(true);
+            playerCameras[1].gameObject.SetActive(false);
+            Debug.Log("Initial Camera: " + currentCamera.name);
         }
         else
         {
@@ -20,26 +22,9 @@ public class CameraSwitcher : MonoBehaviour
         }
     }
 
-    public void SwitchToAttackCamera()
-    {
-        // Optionally, you can change camera settings here if needed
-        // For example, zoom in or change field of view to simulate 'attack' mode
-
-        currentCamera = playerCameras[currentPlayerIndex];
-        UpdateCamera();
-    }
-
-    public void SwitchToFreeLookCamera()
-    {
-        // Optionally, you can change camera settings here if needed
-        // For example, zoom out or change field of view to simulate 'FreeLook' mode
-
-        currentCamera = playerCameras[currentPlayerIndex];
-        UpdateCamera();
-    }
-
     public void SwitchToNextPlayer(int playerIndex)
     {
+        Debug.Log("Switching camera to Player: " + playerIndex);
         // Disable current camera
         if (currentCamera != null)
         {
@@ -55,34 +40,4 @@ public class CameraSwitcher : MonoBehaviour
         return currentCamera;
     }
 
-    private void UpdateCamera()
-    {
-        // Ensure the current camera is active
-        if (currentCamera != null)
-        {
-            currentCamera.gameObject.SetActive(true);
-        }
-    }
 }
-
-// using UnityEngine;
-// using Cinemachine;
-
-// public class CameraSwitcher : MonoBehaviour
-// {
-//     public CinemachineVirtualCamera[] playerCameras;  // Array of player cameras
-//     private int currentPlayerIndex = 0;
-
-//     // Method to switch to the next player's camera
-//     public void SwitchToNextPlayer()
-//     {
-//         // Disable current player's camera
-//         playerCameras[currentPlayerIndex].Priority = 0;
-
-//         // Move to the next player
-//         currentPlayerIndex = (currentPlayerIndex + 1) % playerCameras.Length;
-
-//         // Enable the next player's camera
-//         playerCameras[currentPlayerIndex].Priority = 10;
-//     }
-// }

@@ -61,6 +61,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0))
         {
+            Debug.Log("Controlling Player: " + playerName);
             initialMousePosition = Input.mousePosition;
         }
         if (Input.GetMouseButton(0))
