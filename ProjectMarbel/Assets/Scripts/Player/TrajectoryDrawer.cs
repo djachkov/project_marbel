@@ -3,53 +3,44 @@ using Cinemachine;
 
 public class TrajectoryDrawer : MonoBehaviour
 {
-    [SerializeField]
-    private CinemachineFreeLook Camera;
+
     [SerializeField]
     private Rigidbody Marbel;
     [SerializeField]
     private LineRenderer LineRenderer;
+    [Header("Display Controls")]
     [SerializeField]
-    private Transform ReleasePosition;
-
-
-    [SerializeField]
+    [Range(10, 100)]
     private int LinePoints = 25;
-
     [SerializeField]
+    [Range(0.01f, 0.25f)]
     private float TimeBetweenPoints = 0.1f;
 
     private Transform InitialParent;
     private Vector3 InitialLocalPosition;
     private Quaternion InitialRotation;
-    private LayerMask collisionMask;
-    private void Awake()
-    {
-        InitialParent = Marbel.transform.parent;
-        InitialRotation = Marbel.transform.localRotation;
-        InitialLocalPosition = Marbel.transform.localPosition;
 
-        int layer = Marbel.gameObject.layer;
-        for (int i = 0; i < 32; i++)
-        {
-            if (!Physics.GetIgnoreLayerCollision(layer, i))
-            {
-                collisionMask |= 1 << i; // magic
-            }
-        }
-    }
-    public void DrawProjection(Vector3 velocity)
+    private bool IsMarbelThrowAvailable = true;
+    private LayerMask MarbelCollisionMask;
+    private Vector3 initialMousePosition;
+    private Vector3 forceDirection;
+
+    public void DisableLineRenderer()
     {
+        LineRenderer.enabled = false;
+    }
+    public void DrawTrajectory(Vector3 marbelVelocity, Vector3 marbelPosition)
+    {
+        // 
         LineRenderer.enabled = true;
         LineRenderer.positionCount = Mathf.CeilToInt(LinePoints / TimeBetweenPoints) + 1;
-        Vector3 startPosition = ReleasePosition.position;
         int i = 0;
-        LineRenderer.SetPosition(i, startPosition);
+        LineRenderer.SetPosition(i, marbelPosition);
         for (float time = 0; time < LinePoints; time += TimeBetweenPoints)
         {
             i++;
-            Vector3 point = startPosition + time * velocity;
-            point.y = startPosition.y + velocity.y * time + (Physics.gravity.y / 2f * time * time);
+            Vector3 point = marbelPosition + time * marbelVelocity;
+            point.y = marbelPosition.y + marbelVelocity.y * time + (Physics.gravity.y / 2f * time * time);
 
             LineRenderer.SetPosition(i, point);
 
@@ -59,7 +50,7 @@ public class TrajectoryDrawer : MonoBehaviour
                 (point - lastPosition).normalized,
                 out RaycastHit hit,
                 (point - lastPosition).magnitude,
-                collisionMask))
+                MarbelCollisionMask))
             {
                 LineRenderer.SetPosition(i, hit.point);
                 LineRenderer.positionCount = i + 1;
@@ -67,4 +58,5 @@ public class TrajectoryDrawer : MonoBehaviour
             }
         }
     }
+
 }
