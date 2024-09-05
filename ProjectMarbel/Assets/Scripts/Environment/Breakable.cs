@@ -26,7 +26,7 @@ public class Breakable : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         if (_broken) return;
-        if (collision.collider.CompareTag("Player") || collision.collider.CompareTag("CannonBall"))
+        if (collision.collider.CompareTag("Player_1") || collision.collider.CompareTag("Player_2") || collision.collider.CompareTag("CannonBall"))
         {
             if (collision.relativeVelocity.magnitude >= _breakForce)
             {
