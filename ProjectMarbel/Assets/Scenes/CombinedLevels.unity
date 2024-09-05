@@ -2237,6 +2237,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6440166555503141632, guid: 44acef10a83f2c74c9c618a6cf3c8419, type: 3}
+--- !u!1 &205499824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3500177034190617387, guid: 597a45f88d3adac4db0a40430571bdd6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1441258294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &205499828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205499824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57f387fa19ecba4cb7a9058953c807d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cannonBall: {fileID: 428759751628628056, guid: 6b4b6eb9b77f5744380a187fea51ca00,
+    type: 3}
+  force: 60
 --- !u!1001 &227182098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22779,26 +22800,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1703201029}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1706057672 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6134267607240849138, guid: 597a45f88d3adac4db0a40430571bdd6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1441258294}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1706057676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1706057672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f57f387fa19ecba4cb7a9058953c807d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cannonBall: {fileID: 428759751628628056, guid: 6b4b6eb9b77f5744380a187fea51ca00,
-    type: 3}
 --- !u!1001 &1713701510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26913,7 +26914,7 @@ PrefabInstance:
     - target: {fileID: 1823931450997587919, guid: 87d909f853c12af45a441fe256a8eddc,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.23394382
+      value: -0.2339438
       objectReference: {fileID: 0}
     - target: {fileID: 1823931450997587919, guid: 87d909f853c12af45a441fe256a8eddc,
         type: 3}

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1619577677457625158}
   - component: {fileID: 4850812589074142558}
   - component: {fileID: 8859282197926396467}
+  - component: {fileID: 2178296609306444172}
   m_Layer: 0
   m_Name: wall_corner_half
   m_TagString: Untagged
@@ -98,7 +99,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!64 &187870781589568389
 MeshCollider:
@@ -153,3 +154,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.125, z: 0.2}
   m_Center: {x: 0, y: 1.25, z: -0.395}
+--- !u!114 &2178296609306444172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281666380654114487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913468f5fb5b26f4598f23ec17037867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _replacement: {fileID: 2739272310702092227, guid: b74dd9c28c25f7646af96c4e2f4be4b4,
+    type: 3}
+  _breakForce: 2
+  _collisionMultiplier: 50
+  _broken: 0
