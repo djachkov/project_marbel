@@ -26,19 +26,22 @@ public class Breakable : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         if (_broken) return;
-        if (collision.collider.CompareTag("Player") && collision.relativeVelocity.magnitude >= _breakForce)
+        if (collision.collider.CompareTag("Player") || collision.collider.CompareTag("CannonBall"))
         {
-            _broken = true;
-            var replacement = Instantiate(_replacement, transform.position, transform.rotation);
-            
-            var rbs = replacement.GetComponentsInChildren<Rigidbody>();
-            foreach (var rb in rbs)
+            if (collision.relativeVelocity.magnitude >= _breakForce)
             {
-                rb.AddExplosionForce(collision.relativeVelocity.magnitude * _collisionMultiplier, collision.contacts[0].point, 2);
-            }
+                _broken = true;
+                var replacement = Instantiate(_replacement, transform.position, transform.rotation);
 
-            //AudioSource.PlayClipAtPoint(_explosion,transform.position);
-            Destroy(gameObject);
+                var rbs = replacement.GetComponentsInChildren<Rigidbody>();
+                foreach (var rb in rbs)
+                {
+                    rb.AddExplosionForce(collision.relativeVelocity.magnitude * _collisionMultiplier, collision.contacts[0].point, 2);
+                }
+
+                //AudioSource.PlayClipAtPoint(_explosion,transform.position);
+                Destroy(gameObject);
+            }
         }
     }
 }
