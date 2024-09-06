@@ -113,6 +113,9 @@ MonoBehaviour:
   LineRenderer: {fileID: 5271710075876695199}
   LinePoints: 25
   TimeBetweenPoints: 0.1
+  MarbelCollisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &5497906199217536728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +247,9 @@ MonoBehaviour:
   LineRenderer: {fileID: 5581020445322207765}
   LinePoints: 25
   TimeBetweenPoints: 0.1
+  MarbelCollisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &5497906198881031851
 MonoBehaviour:
   m_ObjectHideFlags: 0
