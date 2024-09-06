@@ -19,8 +19,7 @@ public class PersistentDataManager : MonoBehaviour
     public AudioClip mainMenuMusic;
     public AudioClip inGameMusic;
     public AudioClip victoryMusic;
-
-    // [Space(10)]
+    
     [Header("Player Scores")]
     public int player1Score;
     public int player2Score;

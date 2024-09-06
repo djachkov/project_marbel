@@ -2,21 +2,22 @@
 
 public class ScoringLogic : MonoBehaviour
 {
-    // Public variables to hold the tags for players
+    [Header("Player tags")] // Public variables to hold the tags for players
     public string player1Tag = "Player_1";
     public string player2Tag = "Player_2";
 
-    // Public variables to hold the tags for buildings
+    [Header("Building tags")]// Public variables to hold the tags for buildings
     public string buildingSmallTag = "Building_Small";
     public string buildingMediumTag = "Building_Medium";
     public string buildingBigTag = "Building_Big";
     public string buildingHugeTag = "Building_Huge";
 
-    // Points assigned to each building
+    [Header("Score given")]// Points assigned to each building
     public int buildingSmallPoints = 1;
     public int buildingMediumPoints = 2;
     public int buildingBigPoints = 4;
     public int buildingHugePoints = 6;
+    public int marbleFallOffLevelPoints = 10;
 
     private PersistentDataManager dataManager;
 
