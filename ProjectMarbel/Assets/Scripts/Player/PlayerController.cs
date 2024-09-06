@@ -135,6 +135,7 @@ public class PlayerController : MonoBehaviour
 
     public void DeactivatePlayer()
     {
+        trajectoryDrawer.DisableLineRenderer();
         isActive = false;
     }
 
