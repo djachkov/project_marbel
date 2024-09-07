@@ -113,6 +113,9 @@ MonoBehaviour:
   LineRenderer: {fileID: 5271710075876695199}
   LinePoints: 25
   TimeBetweenPoints: 0.1
+  MarbelCollisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &5497906199217536728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,9 +131,10 @@ MonoBehaviour:
   Camera: {fileID: 0}
   trajectoryDrawer: {fileID: 298999179662585583}
   MarbelPosition: {fileID: 3277887584766284022}
-  forceIncrement: 5
+  forceIncrement: 1
   MinThrowStrength: 15
   MaxThrowStrength: 150
+  aimSensitivity: 0.05
 --- !u!120 &5581020445322207765
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -244,6 +248,9 @@ MonoBehaviour:
   LineRenderer: {fileID: 5581020445322207765}
   LinePoints: 25
   TimeBetweenPoints: 0.1
+  MarbelCollisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &5497906198881031851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,9 +266,10 @@ MonoBehaviour:
   Camera: {fileID: 0}
   trajectoryDrawer: {fileID: 1438110122806864377}
   MarbelPosition: {fileID: 3277887584970733707}
-  forceIncrement: 5
+  forceIncrement: 1
   MinThrowStrength: 15
   MaxThrowStrength: 150
+  aimSensitivity: 0.05
 --- !u!1 &5497906200190956085
 GameObject:
   m_ObjectHideFlags: 0

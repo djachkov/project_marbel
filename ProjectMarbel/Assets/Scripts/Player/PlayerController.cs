@@ -18,12 +18,15 @@ public class PlayerController : MonoBehaviour
     [Header("Force Parameters")]
 
     [SerializeField]
-    private float forceIncrement = 5f;
+    [Range(0.5f, 10f)]
+    private float forceIncrement = 1f;
 
     [SerializeField]
+    [Range(1f, 50f)]
     private float MinThrowStrength = 15f;
 
     [SerializeField]
+    [Range(50f, 250f)]
     private float MaxThrowStrength = 150f;
 
     // Internal parameters
@@ -40,7 +43,12 @@ public class PlayerController : MonoBehaviour
     private Vector3 initialMousePosition;
     private Vector3 aimDirection;
     private Vector3 forceDirection;
+    private float currentHorizontalAngle = 0f;
+    private float currentVerticalAngle = 0f;
 
+    [SerializeField]
+    [Range(0.05f, 1f)]
+    private float aimSensitivity = 0.05f; // TODO: setings? 
 
     void Start()
     {
@@ -82,24 +90,31 @@ public class PlayerController : MonoBehaviour
     {
         // Getting current camera direction and normilizing value
         Vector3 cameraForward = Camera.main.transform.forward;
-        cameraForward.y = 0;
-        cameraForward.Normalize();
 
         // Getting current Mouse position to compare with the initial one
         Vector3 currentMousePosition = Input.mousePosition;
         Vector3 mouseDelta = currentMousePosition - initialMousePosition;
 
-        // Calculating X and Y directions comparing to screen. Limiting by 90 degrees for better user experience.  
-        float rotationAngleX = mouseDelta.x * 90f / Screen.width;
-        float rotationAngleY = mouseDelta.y * 90f / Screen.height;
-        Quaternion rotationX = Quaternion.Euler(0, -rotationAngleX, 0);
-        Quaternion rotationY = Quaternion.Euler(-rotationAngleY, 0, 0);
+        // Getting mouse coord delta and adjusting for better sensicivity. NOTE: screen width/height dependencies removed. 
+        float horizontalDelta = -mouseDelta.x * 0.05f;
+        float verticalDelta = mouseDelta.y * 0.05f;     // Adjust sensitivity as needed
 
-        // Calculating direction and applying force amount
-        forceDirection = rotationX * cameraForward;
-        forceDirection = rotationY * forceDirection;
+        // Combining data BEFORE clumping solved the crazy mouse clamping issue.
+        currentHorizontalAngle += horizontalDelta;
+        currentVerticalAngle += verticalDelta;
+        // Clumping to limit the player from backward aiming (better UX)
+        currentHorizontalAngle = Mathf.Clamp(horizontalDelta, -90f, 90f);
+        currentVerticalAngle = Mathf.Clamp(verticalDelta, -90f, 90f);
 
-        aimDirection = forceDirection * currentForce;
+        // Rotation rotation
+        Quaternion horizontalRotation = Quaternion.AngleAxis(currentHorizontalAngle, Vector3.up);
+        Quaternion verticalRotation = Quaternion.AngleAxis(currentVerticalAngle, Camera.main.transform.right);
+
+        //  Here where the force is calculated, finally
+        forceDirection = horizontalRotation * verticalRotation * cameraForward;
+
+        // And then - aim corrected by force and we have the result! 
+        aimDirection = forceDirection.normalized * currentForce;
 
     }
 
@@ -126,6 +141,7 @@ public class PlayerController : MonoBehaviour
 
     public void DeactivatePlayer()
     {
+        trajectoryDrawer.DisableLineRenderer();
         isActive = false;
     }
 
