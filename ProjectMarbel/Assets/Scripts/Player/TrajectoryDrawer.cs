@@ -16,6 +16,8 @@ public class TrajectoryDrawer : MonoBehaviour
     [Range(0.01f, 0.25f)]
     private float TimeBetweenPoints = 0.1f;
 
+
+    [SerializeField]
     private LayerMask MarbelCollisionMask;
 
     public void DisableLineRenderer()

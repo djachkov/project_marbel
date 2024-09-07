@@ -18,12 +18,15 @@ public class PlayerController : MonoBehaviour
     [Header("Force Parameters")]
 
     [SerializeField]
-    private float forceIncrement = 5f;
+    [Range(0.5f, 10f)]
+    private float forceIncrement = 1f;
 
     [SerializeField]
+    [Range(1f, 50f)]
     private float MinThrowStrength = 15f;
 
     [SerializeField]
+    [Range(50f, 250f)]
     private float MaxThrowStrength = 150f;
 
     // Internal parameters
@@ -42,6 +45,9 @@ public class PlayerController : MonoBehaviour
     private Vector3 forceDirection;
     private float currentHorizontalAngle = 0f;
     private float currentVerticalAngle = 0f;
+
+    [SerializeField]
+    [Range(0.05f, 1f)]
     private float aimSensitivity = 0.05f; // TODO: setings? 
 
     void Start()
@@ -90,7 +96,7 @@ public class PlayerController : MonoBehaviour
         Vector3 mouseDelta = currentMousePosition - initialMousePosition;
 
         // Getting mouse coord delta and adjusting for better sensicivity. NOTE: screen width/height dependencies removed. 
-        float horizontalDelta = -mouseDelta.x * 0.05f;  
+        float horizontalDelta = -mouseDelta.x * 0.05f;
         float verticalDelta = mouseDelta.y * 0.05f;     // Adjust sensitivity as needed
 
         // Combining data BEFORE clumping solved the crazy mouse clamping issue.
