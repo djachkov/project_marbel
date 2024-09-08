@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MarbleSelectionTest.unity
     guid: ea5e81ef82d891c6c8cc60e748733d37
   - enabled: 1
-    path: Assets/Scenes/TutorialLevel.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 6ce41a2f13cf5b1b08c9a6a30be136cf
+  - enabled: 1
+    path: Assets/Scenes/CombinedLevels.unity
+    guid: 15abbf856d940a945b5d0f359a87a9a1
   m_configObjects: {}
