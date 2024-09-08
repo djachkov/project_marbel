@@ -44,14 +44,18 @@ public class GameManager : MonoBehaviour
         // TODO: Implement score tracking
         // playerUIManager.UpdatePlayerScore(activePlayer.score);
 
+
+
         // Start the timer
         Invoke("SwitchPlayer", switchTimer);
     }
 
     public void PlayerDied()
     {
+        int currentDeathCase = activePlayer.GetDeathCase();
         activePlayer.DeactivatePlayer();
         SwitchPlayer();
+        activePlayer.ChangeLevel(activePlayer.GetPlayerIndex(), currentDeathCase);
     }
 
     void SwitchPlayer()

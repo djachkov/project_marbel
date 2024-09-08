@@ -1,5 +1,7 @@
 using UnityEngine;
 using Cinemachine;
+using System;
+using UnityEngine.ProBuilder.MeshOperations;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,8 +14,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private TrajectoryDrawer trajectoryDrawer;
     [SerializeField]
-    // TODO: auto-assign this parameter!
     private Transform MarbelPosition;
+
+    [Header ("Spawning Data")]
+    [SerializeField]
+    private GameObject currentSpawnTile;
+    [SerializeField]
+    private float spawnHeightOffset = 0.5f;
 
     [Header("Force Parameters")]
 
@@ -35,6 +42,8 @@ public class PlayerController : MonoBehaviour
     private string playerName = "";
     private Rigidbody Marbel;
     private bool isActive = false;
+    
+    private int deathCase = 0;
 
     // Default starting force
     private float currentForce = 50f;
@@ -53,6 +62,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         Marbel = GetComponent<Rigidbody>();
+        ChangeLevel(playerIndex, 3);
     }
 
     void Update()
@@ -145,11 +155,6 @@ public class PlayerController : MonoBehaviour
         isActive = false;
     }
 
-    public void Die()
-    {
-        // TODO: switching level position after "death". 
-        GameManager.Instance.PlayerDied();
-    }
     void IncreaseForce()
     {
         currentForce = Mathf.Clamp(currentForce + forceIncrement, MinThrowStrength, MaxThrowStrength);
@@ -169,5 +174,79 @@ public class PlayerController : MonoBehaviour
     public string GetPlayerName()
     {
         return playerName;
+    }
+
+    void OnCollisionEnter (Collision collision)
+    {
+        if (collision.collider.name == "water_lvl_1")
+        {
+            deathCase = 1;
+            Die(deathCase);
+        }
+        else if (collision.collider.name == "water_lvl_2")
+        {
+            deathCase = 2;
+            Die(deathCase);
+        }
+        else if (collision.collider.name == "water_lvl_3")
+        {
+            deathCase = 3;
+            Die(deathCase);
+        }
+    }
+
+    public void Die(int deathCase)
+    {
+        // TODO: switching level position after "death"
+        Marbel.velocity = Vector3.zero;
+        Marbel.angularVelocity = Vector3.zero;
+        ChangeLevel(playerIndex, deathCase);
+        GameManager.Instance.PlayerDied();
+    }
+
+    public int GetDeathCase()
+    {
+        return deathCase;
+    }
+
+    public void ChangeLevel (int playerIndex, int deathCase)
+    {
+        if (playerIndex == 1)
+        {
+            if (deathCase ==1)
+            {
+                currentSpawnTile = GameObject.Find("spawn_tile_L2_P1");
+                MarbelPosition.position = currentSpawnTile.transform.position + new Vector3(0.0f, spawnHeightOffset, 0.0f);
+            }
+            else if (deathCase == 2)
+            {
+                currentSpawnTile = GameObject.Find("spawn_tile_L3_P1");
+                MarbelPosition.position = currentSpawnTile.transform.position + new Vector3(0.0f, spawnHeightOffset, 0.0f);
+            }
+            else if (deathCase == 3)
+            {
+                currentSpawnTile = GameObject.Find("spawn_tile_L1_P1");
+                MarbelPosition.position = currentSpawnTile.transform.position + new Vector3(0.0f, spawnHeightOffset, 0.0f);
+            }
+        }
+        else if (playerIndex == 2)
+        {
+            if (deathCase == 1)
+            {
+                currentSpawnTile = GameObject.Find("spawn_tile_L2_P2");
+                Debug.Log(currentSpawnTile);
+                MarbelPosition.position = currentSpawnTile.transform.position + new Vector3(0.0f, spawnHeightOffset, 0.0f);
+            }
+            else if (deathCase == 2)
+            {
+                currentSpawnTile = GameObject.Find("spawn_tile_L3_P2");
+                MarbelPosition.position = currentSpawnTile.transform.position + new Vector3(0.0f, spawnHeightOffset, 0.0f);
+            }
+            else if (deathCase == 3)
+            {
+                currentSpawnTile = GameObject.Find("spawn_tile_L1_P2");
+                MarbelPosition.position = currentSpawnTile.transform.position + new Vector3(0.0f, spawnHeightOffset, 0.0f);
+            }
+        }
     }
 }
