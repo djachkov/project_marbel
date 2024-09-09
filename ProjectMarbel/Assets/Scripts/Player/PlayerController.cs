@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
 
     // Internal parameters
     private int playerIndex;
-    private int score = 0;
+    public int score = 0;
     private string playerName = "";
     private Rigidbody Marbel;
     private bool isActive = false;
@@ -209,6 +209,7 @@ public class PlayerController : MonoBehaviour
         if (playerIndex == 1) opponent = 2;
         if (playerIndex == 2) opponent = 1;
         PersistentDataManager.Instance.AddScore(opponent, 100);
+        // playerUIManager.UpdatePlayerScore(opponent, PersistentDataManager.Instance.GetPlayerScore(opponent));
         ChangeLevel(playerIndex, deathCase);
         GameManager.Instance.PlayerDied();
     }

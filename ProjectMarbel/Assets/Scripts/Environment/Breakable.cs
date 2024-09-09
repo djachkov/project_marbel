@@ -72,6 +72,7 @@ public class Breakable : MonoBehaviour
                 {
                     int score = Score(collision);
                     PersistentDataManager.Instance.AddScore(player, score);
+                    AudioManager.Instance.PlaySFX();
                 }
             }
         }
