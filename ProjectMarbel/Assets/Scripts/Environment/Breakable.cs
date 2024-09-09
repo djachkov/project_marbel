@@ -13,7 +13,7 @@ public class Breakable : MonoBehaviour
     private string buildingBig = "building_big_broken";
     private string buildingHuge = "building_huge_broken";
 
-    //[SerializeField] private AudioClip _explosion;
+    [SerializeField] private AudioClip _explosion;
 
     // Start is called before the first frame update
     void Start()
@@ -66,7 +66,7 @@ public class Breakable : MonoBehaviour
                     rb.AddExplosionForce(collision.relativeVelocity.magnitude * _collisionMultiplier, collision.contacts[0].point, 2);
                 }
 
-                //AudioSource.PlayClipAtPoint(_explosion,transform.position);
+                AudioSource.PlayClipAtPoint(_explosion,transform.position);
                 Destroy(gameObject);
                 if (player > 0)
                 {

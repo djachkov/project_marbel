@@ -215,6 +215,7 @@ MonoBehaviour:
   _breakForce: 2
   _collisionMultiplier: 50
   _broken: 0
+  _explosion: {fileID: 8300000, guid: ccdd2f415e33b854481e78bb807effec, type: 3}
 --- !u!1 &4367234956267902123
 GameObject:
   m_ObjectHideFlags: 0

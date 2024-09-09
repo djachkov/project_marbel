@@ -171,3 +171,4 @@ MonoBehaviour:
   _breakForce: 2
   _collisionMultiplier: 50
   _broken: 0
+  _explosion: {fileID: 8300000, guid: ccdd2f415e33b854481e78bb807effec, type: 3}
