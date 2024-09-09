@@ -7,12 +7,15 @@ public class RubbleCleaning : MonoBehaviour
     [SerializeField] private GameObject[] rubbleParts;
     private float lastCleaningTime;    // stores the last time the rubbles were cleaned
     [SerializeField] float timeInterval = 3.0f;   // The time interval between cleanings
-
+    private AudioSource bgMusic;
 
     // Start is called before the first frame update
     void Start()
     {
         lastCleaningTime = Time.time;
+        bgMusic = GetComponent<AudioSource>();
+        bgMusic.loop = true;
+        bgMusic.Play();
     }
 
     // Update is called once per frame
