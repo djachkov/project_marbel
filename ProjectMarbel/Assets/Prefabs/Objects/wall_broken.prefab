@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5044671484457143988}
   m_Layer: 0
   m_Name: wall-half_cell.033
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 994015496795293221}
   m_Layer: 0
   m_Name: wall-half_cell.038
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 1461808855901533475}
   m_Layer: 0
   m_Name: wall-half_cell.019
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 4964673404336024579}
   m_Layer: 0
   m_Name: wall-half_cell.010
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 712877705432066088}
   m_Layer: 0
   m_Name: wall-half_cell.021
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 586366192003604516}
   m_Layer: 0
   m_Name: wall-half_cell.015
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 8576996719217641381}
   m_Layer: 0
   m_Name: wall-half_cell.008
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 3781201855446288083}
   m_Layer: 0
   m_Name: wall-half_cell.025
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 3640431557649648345}
   m_Layer: 0
   m_Name: wall-half_cell.029
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 2160073458133954950}
   m_Layer: 0
   m_Name: wall-half_cell.016
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1125,7 +1125,7 @@ GameObject:
   - component: {fileID: 7499257049449202436}
   m_Layer: 0
   m_Name: wall-half_cell.039
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1236,7 +1236,7 @@ GameObject:
   - component: {fileID: 5466256510718676329}
   m_Layer: 0
   m_Name: wall-half_cell.017
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 4649075070499661415}
   m_Layer: 0
   m_Name: wall-half_cell.004
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1458,7 +1458,7 @@ GameObject:
   - component: {fileID: 1267730470309385307}
   m_Layer: 0
   m_Name: wall-half_cell.007
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1569,7 +1569,7 @@ GameObject:
   - component: {fileID: 3069462367984879765}
   m_Layer: 0
   m_Name: wall-half_cell.012
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1749,7 +1749,7 @@ GameObject:
   - component: {fileID: 118264421986581586}
   m_Layer: 0
   m_Name: wall-half_cell.027
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1860,7 +1860,7 @@ GameObject:
   - component: {fileID: 322682451242880942}
   m_Layer: 0
   m_Name: wall-half_cell.024
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1971,7 +1971,7 @@ GameObject:
   - component: {fileID: 6338053122421327883}
   m_Layer: 0
   m_Name: wall-half_cell.023
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2082,7 +2082,7 @@ GameObject:
   - component: {fileID: 7943191365528291094}
   m_Layer: 0
   m_Name: wall-half_cell.040
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2193,7 +2193,7 @@ GameObject:
   - component: {fileID: 7630410955874022741}
   m_Layer: 0
   m_Name: wall-half_cell.001
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2304,7 +2304,7 @@ GameObject:
   - component: {fileID: 2292229002410838619}
   m_Layer: 0
   m_Name: wall-half_cell.022
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2415,7 +2415,7 @@ GameObject:
   - component: {fileID: 5921751347830864097}
   m_Layer: 0
   m_Name: wall-half_cell.014
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2526,7 +2526,7 @@ GameObject:
   - component: {fileID: 2550319292496621766}
   m_Layer: 0
   m_Name: wall-half_cell.002
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2637,7 +2637,7 @@ GameObject:
   - component: {fileID: 4906046526668789898}
   m_Layer: 0
   m_Name: wall-half_cell.034
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2748,7 +2748,7 @@ GameObject:
   - component: {fileID: 2849098385231118372}
   m_Layer: 0
   m_Name: wall-half_cell.011
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2859,7 +2859,7 @@ GameObject:
   - component: {fileID: 7172951260901934316}
   m_Layer: 0
   m_Name: wall-half_cell.032
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2970,7 +2970,7 @@ GameObject:
   - component: {fileID: 2737779393085595440}
   m_Layer: 0
   m_Name: wall-half_cell.042
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3081,7 +3081,7 @@ GameObject:
   - component: {fileID: 919516376632410405}
   m_Layer: 0
   m_Name: wall-half_cell.006
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3192,7 +3192,7 @@ GameObject:
   - component: {fileID: 2255018305474886785}
   m_Layer: 0
   m_Name: wall-half_cell.030
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3303,7 +3303,7 @@ GameObject:
   - component: {fileID: 2997344671076672743}
   m_Layer: 0
   m_Name: wall-half_cell.026
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3414,7 +3414,7 @@ GameObject:
   - component: {fileID: 6305480650211292983}
   m_Layer: 0
   m_Name: wall-half_cell.005
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3525,7 +3525,7 @@ GameObject:
   - component: {fileID: 88490181737498533}
   m_Layer: 0
   m_Name: wall-half_cell.036
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3636,7 +3636,7 @@ GameObject:
   - component: {fileID: 3033877408301750060}
   m_Layer: 0
   m_Name: wall-half_cell.035
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3747,7 +3747,7 @@ GameObject:
   - component: {fileID: 3008617028961487389}
   m_Layer: 0
   m_Name: wall-half_cell
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3858,7 +3858,7 @@ GameObject:
   - component: {fileID: 1857940107310425763}
   m_Layer: 0
   m_Name: wall-half_cell.013
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3969,7 +3969,7 @@ GameObject:
   - component: {fileID: 2754418004526947004}
   m_Layer: 0
   m_Name: wall-half_cell.043
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4080,7 +4080,7 @@ GameObject:
   - component: {fileID: 3213763062921420232}
   m_Layer: 0
   m_Name: wall-half_cell.041
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4191,7 +4191,7 @@ GameObject:
   - component: {fileID: 3587411294818128087}
   m_Layer: 0
   m_Name: wall-half_cell.028
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4302,7 +4302,7 @@ GameObject:
   - component: {fileID: 8317647779194173105}
   m_Layer: 0
   m_Name: wall-half_cell.037
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
