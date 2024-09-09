@@ -205,6 +205,10 @@ public class PlayerController : MonoBehaviour
         // TODO: switching level position after "death"
         Marbel.velocity = Vector3.zero;
         Marbel.angularVelocity = Vector3.zero;
+        int opponent = 0;
+        if (playerIndex == 1) opponent = 2;
+        if (playerIndex == 2) opponent = 1;
+        PersistentDataManager.Instance.AddScore(opponent, 100);
         ChangeLevel(playerIndex, deathCase);
         GameManager.Instance.PlayerDied();
     }

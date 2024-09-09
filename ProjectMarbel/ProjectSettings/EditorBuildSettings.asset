@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CombinedLevels.unity
     guid: 15abbf856d940a945b5d0f359a87a9a1
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: ab6bbf418fd9aa8d3a19b35d2846915c
   m_configObjects: {}

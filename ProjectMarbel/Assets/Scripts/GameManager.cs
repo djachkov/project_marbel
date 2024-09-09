@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
     public void PlayerDied()
     {
         int currentDeathCase = activePlayer.GetDeathCase();
-        SwitchPlayer();
+        // SwitchPlayer();
         activePlayer.ChangeLevel(activePlayer.GetPlayerIndex(), currentDeathCase);
     }
 

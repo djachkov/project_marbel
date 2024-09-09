@@ -86,6 +86,21 @@ public class PersistentDataManager : MonoBehaviour
             return 0;
         }
     }
+    public void AddScore(int playerIndex, int score)
+    {
+        if (playerIndex == 1)
+        {
+            player1Score += score;
+        }
+        else if (playerIndex == 2)
+        {
+            player2Score += score;
+        }
+        else
+        {
+            Debug.LogError("Invalid player index! Use 1 or 2.");
+        }
+    }
     public int GetCurrentPlayer()
     {
         return currentPlayer;
