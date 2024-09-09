@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6544379291058317097}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.062
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 6097711661159808685}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.002
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 3398639128151090644}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.005
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 2940319606551197656}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.020
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 8946248298923964566}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.012
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 4041052476503384362}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.030
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 7255259665469608687}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.013
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 3102911169735686460}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.008
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 3118699250409685006}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.019
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 4437972573713067311}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.022
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1125,7 +1125,7 @@ GameObject:
   - component: {fileID: 6903772830698920682}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.065
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1236,7 +1236,7 @@ GameObject:
   - component: {fileID: 1901026678891531805}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.066
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 4609974312975781942}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.030
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1458,7 +1458,7 @@ GameObject:
   - component: {fileID: 3005595087937456722}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.031
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1569,7 +1569,7 @@ GameObject:
   - component: {fileID: 2425434701146657111}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.023
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1680,7 +1680,7 @@ GameObject:
   - component: {fileID: 4649774193424065540}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.015
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1791,7 +1791,7 @@ GameObject:
   - component: {fileID: 7354516479540373715}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.008
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1902,7 +1902,7 @@ GameObject:
   - component: {fileID: 7763795437679592055}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.056
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2013,7 +2013,7 @@ GameObject:
   - component: {fileID: 3951781636406090760}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.007
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2124,7 +2124,7 @@ GameObject:
   - component: {fileID: 2895011120716819032}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.031
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2235,7 +2235,7 @@ GameObject:
   - component: {fileID: 8811790474712880796}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.014
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2346,7 +2346,7 @@ GameObject:
   - component: {fileID: 862682561567895353}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.024
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2457,7 +2457,7 @@ GameObject:
   - component: {fileID: 4015095390526978391}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.058
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2568,7 +2568,7 @@ GameObject:
   - component: {fileID: 898494903645216865}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.037
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2679,7 +2679,7 @@ GameObject:
   - component: {fileID: 6225697463827492781}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.024
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2790,7 +2790,7 @@ GameObject:
   - component: {fileID: 6942730701444664067}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.055
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2901,7 +2901,7 @@ GameObject:
   - component: {fileID: 6313778894120115488}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.010
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3012,7 +3012,7 @@ GameObject:
   - component: {fileID: 8047208876905201373}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.001
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3123,7 +3123,7 @@ GameObject:
   - component: {fileID: 3240106342209648642}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.013
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3234,7 +3234,7 @@ GameObject:
   - component: {fileID: 4659889071250836740}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.020
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3345,7 +3345,7 @@ GameObject:
   - component: {fileID: 500053253420389907}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.040
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3456,7 +3456,7 @@ GameObject:
   - component: {fileID: 4525382878067971911}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.026
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3567,7 +3567,7 @@ GameObject:
   - component: {fileID: 1480018228468180844}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.002
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3678,7 +3678,7 @@ GameObject:
   - component: {fileID: 5374652802900499286}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.067
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3789,7 +3789,7 @@ GameObject:
   - component: {fileID: 7290193247744012461}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.035
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3900,7 +3900,7 @@ GameObject:
   - component: {fileID: 4389825181566765224}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.027
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4011,7 +4011,7 @@ GameObject:
   - component: {fileID: 4449636221234053570}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.003
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4122,7 +4122,7 @@ GameObject:
   - component: {fileID: 5090270159037092103}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.006
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4233,7 +4233,7 @@ GameObject:
   - component: {fileID: 960596759586974637}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.005
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4344,7 +4344,7 @@ GameObject:
   - component: {fileID: 6286526664780486922}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.010
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4455,7 +4455,7 @@ GameObject:
   - component: {fileID: 8483490258084491273}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.051
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4566,7 +4566,7 @@ GameObject:
   - component: {fileID: 2602862022734674668}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.028
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4677,7 +4677,7 @@ GameObject:
   - component: {fileID: 3244220057636219345}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.016
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4788,7 +4788,7 @@ GameObject:
   - component: {fileID: 8754587584983952690}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.050
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4899,7 +4899,7 @@ GameObject:
   - component: {fileID: 3437670142365543961}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.027
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5010,7 +5010,7 @@ GameObject:
   - component: {fileID: 2253793594598609344}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.011
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5121,7 +5121,7 @@ GameObject:
   - component: {fileID: 8535000330678689741}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.024
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5232,7 +5232,7 @@ GameObject:
   - component: {fileID: 5729036714623310655}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.064
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5343,7 +5343,7 @@ GameObject:
   - component: {fileID: 7912666009306473381}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.004
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5454,7 +5454,7 @@ GameObject:
   - component: {fileID: 1285112565165579790}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.009
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5565,7 +5565,7 @@ GameObject:
   - component: {fileID: 6104887116509941282}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.038
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5676,7 +5676,7 @@ GameObject:
   - component: {fileID: 33440803421736982}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.004
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5787,7 +5787,7 @@ GameObject:
   - component: {fileID: 7243627690455550463}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.007
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5898,7 +5898,7 @@ GameObject:
   - component: {fileID: 5473161920374789047}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.057
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6009,7 +6009,7 @@ GameObject:
   - component: {fileID: 5474299085144802626}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.021
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6120,7 +6120,7 @@ GameObject:
   - component: {fileID: 5780438705884401495}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.022
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6231,7 +6231,7 @@ GameObject:
   - component: {fileID: 688403862037436251}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.016
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6342,7 +6342,7 @@ GameObject:
   - component: {fileID: 8518733184467287486}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.002
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6453,7 +6453,7 @@ GameObject:
   - component: {fileID: 2172413666241440898}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6564,7 +6564,7 @@ GameObject:
   - component: {fileID: 6512247105975790988}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.001
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6675,7 +6675,7 @@ GameObject:
   - component: {fileID: 6420975870082789558}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.045
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6786,7 +6786,7 @@ GameObject:
   - component: {fileID: 8576127569932771222}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.028
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6897,7 +6897,7 @@ GameObject:
   - component: {fileID: 246926821368629726}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.006
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7008,7 +7008,7 @@ GameObject:
   - component: {fileID: 2301850733918106752}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.036
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7119,7 +7119,7 @@ GameObject:
   - component: {fileID: 7975771886247066663}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.047
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7230,7 +7230,7 @@ GameObject:
   - component: {fileID: 1592948414848921169}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.046
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7341,7 +7341,7 @@ GameObject:
   - component: {fileID: 3257744142032593950}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.052
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7452,7 +7452,7 @@ GameObject:
   - component: {fileID: 435306019430190673}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.018
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7563,7 +7563,7 @@ GameObject:
   - component: {fileID: 870537830046405798}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.021
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7674,7 +7674,7 @@ GameObject:
   - component: {fileID: 8806879521306963063}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.003
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7785,7 +7785,7 @@ GameObject:
   - component: {fileID: 6929501978505657510}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.029
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7896,7 +7896,7 @@ GameObject:
   - component: {fileID: 3380785595504957001}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.022
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8007,7 +8007,7 @@ GameObject:
   - component: {fileID: 8868455939382257735}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.027
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8118,7 +8118,7 @@ GameObject:
   - component: {fileID: 498802764046840543}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.025
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8229,7 +8229,7 @@ GameObject:
   - component: {fileID: 5440599240432844609}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.015
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8340,7 +8340,7 @@ GameObject:
   - component: {fileID: 353639453119841368}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.018
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8451,7 +8451,7 @@ GameObject:
   - component: {fileID: 2428636238914730287}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8562,7 +8562,7 @@ GameObject:
   - component: {fileID: 2474206121824735687}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.060
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8673,7 +8673,7 @@ GameObject:
   - component: {fileID: 2870147612981186534}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.007
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8784,7 +8784,7 @@ GameObject:
   - component: {fileID: 347607784052076497}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.003
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8895,7 +8895,7 @@ GameObject:
   - component: {fileID: 6527351295746209573}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.019
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9006,7 +9006,7 @@ GameObject:
   - component: {fileID: 9159485788776718718}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.031
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9117,7 +9117,7 @@ GameObject:
   - component: {fileID: 2507876637582332580}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.009
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9228,7 +9228,7 @@ GameObject:
   - component: {fileID: 35655522508733959}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.054
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9339,7 +9339,7 @@ GameObject:
   - component: {fileID: 1879886082514099778}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.001
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9450,7 +9450,7 @@ GameObject:
   - component: {fileID: 7284569373276384626}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.032
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9561,7 +9561,7 @@ GameObject:
   - component: {fileID: 5485715403768982442}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.017
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9672,7 +9672,7 @@ GameObject:
   - component: {fileID: 5422968249695812901}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.021
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9783,7 +9783,7 @@ GameObject:
   - component: {fileID: 6732409383635707409}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.010
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9894,7 +9894,7 @@ GameObject:
   - component: {fileID: 7489396856428601361}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.061
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10005,7 +10005,7 @@ GameObject:
   - component: {fileID: 106320031083372256}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.008
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10116,7 +10116,7 @@ GameObject:
   - component: {fileID: 3602357828551619918}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.026
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10227,7 +10227,7 @@ GameObject:
   - component: {fileID: 110428594121533162}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.009
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10338,7 +10338,7 @@ GameObject:
   - component: {fileID: 4852452146185258962}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.039
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10449,7 +10449,7 @@ GameObject:
   - component: {fileID: 6244110966268607392}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.049
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10560,7 +10560,7 @@ GameObject:
   - component: {fileID: 5735268487547851081}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.005
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10671,7 +10671,7 @@ GameObject:
   - component: {fileID: 506167503280889211}
   m_Layer: 0
   m_Name: tower-hexagon-base_cell.032
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10782,7 +10782,7 @@ GameObject:
   - component: {fileID: 7523990994671344176}
   m_Layer: 0
   m_Name: tower-hexagon-mid_cell.034
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10893,7 +10893,7 @@ GameObject:
   - component: {fileID: 1991205061143118353}
   m_Layer: 0
   m_Name: tower-hexagon-roof_cell.018
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

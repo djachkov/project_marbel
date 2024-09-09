@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4243381082873898528}
   m_Layer: 0
   m_Name: skyscraperA_cell.017
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 9218473847279700955}
   m_Layer: 0
   m_Name: skyscraperA_cell.038
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 8453358169944200148}
   m_Layer: 0
   m_Name: skyscraperA_cell.024
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 986967620369465278}
   m_Layer: 0
   m_Name: skyscraperA_cell.050
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 2003434422988057878}
   m_Layer: 0
   m_Name: skyscraperA_cell.012
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 8411348288987600233}
   m_Layer: 0
   m_Name: skyscraperA_cell.004
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 8804951107979558291}
   m_Layer: 0
   m_Name: skyscraperA_cell.046
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 296771722475945983}
   m_Layer: 0
   m_Name: skyscraperA_cell.010
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 6683909672610509304}
   m_Layer: 0
   m_Name: skyscraperA_cell.023
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1026,7 +1026,7 @@ GameObject:
   - component: {fileID: 3212365777129893845}
   m_Layer: 0
   m_Name: skyscraperA_cell.007
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 4534212293061322606}
   m_Layer: 0
   m_Name: skyscraperA_cell.037
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1252,7 +1252,7 @@ GameObject:
   - component: {fileID: 39930167549601800}
   m_Layer: 0
   m_Name: skyscraperA_cell.016
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1367,7 +1367,7 @@ GameObject:
   - component: {fileID: 1123330055679788277}
   m_Layer: 0
   m_Name: skyscraperA_cell.053
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1480,7 +1480,7 @@ GameObject:
   - component: {fileID: 7877082947637743853}
   m_Layer: 0
   m_Name: skyscraperA_cell.057
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1593,7 +1593,7 @@ GameObject:
   - component: {fileID: 8301208579937061806}
   m_Layer: 0
   m_Name: skyscraperA_cell.033
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1706,7 +1706,7 @@ GameObject:
   - component: {fileID: 5989452686319132079}
   m_Layer: 0
   m_Name: skyscraperA_cell.003
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1818,7 +1818,7 @@ GameObject:
   - component: {fileID: 5440087463876964674}
   m_Layer: 0
   m_Name: skyscraperA_cell.001
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1930,7 +1930,7 @@ GameObject:
   - component: {fileID: 1310477465804654977}
   m_Layer: 0
   m_Name: skyscraperA_cell.013
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2044,7 +2044,7 @@ GameObject:
   - component: {fileID: 2607679675863705737}
   m_Layer: 0
   m_Name: skyscraperA_cell.043
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2158,7 +2158,7 @@ GameObject:
   - component: {fileID: 5416669282389029553}
   m_Layer: 0
   m_Name: skyscraperA_cell.020
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2270,7 +2270,7 @@ GameObject:
   - component: {fileID: 8071973917107194562}
   m_Layer: 0
   m_Name: skyscraperA_cell.014
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2384,7 +2384,7 @@ GameObject:
   - component: {fileID: 467762813518415464}
   m_Layer: 0
   m_Name: skyscraperA_cell.031
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2497,7 +2497,7 @@ GameObject:
   - component: {fileID: 349563757666582143}
   m_Layer: 0
   m_Name: skyscraperA_cell.018
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2609,7 +2609,7 @@ GameObject:
   - component: {fileID: 6054064024371656351}
   m_Layer: 0
   m_Name: skyscraperA_cell.011
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2721,7 +2721,7 @@ GameObject:
   - component: {fileID: 8809559921719382395}
   m_Layer: 0
   m_Name: skyscraperA_cell.040
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2833,7 +2833,7 @@ GameObject:
   - component: {fileID: 5946021991191695773}
   m_Layer: 0
   m_Name: skyscraperA_cell.041
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2940,7 +2940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3723299916692219140}
   m_Layer: 0
-  m_Name: skyscraper_A_broken
+  m_Name: building_big_broken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3030,7 +3030,7 @@ GameObject:
   - component: {fileID: 4239032967242091816}
   m_Layer: 0
   m_Name: skyscraperA_cell.055
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3142,7 +3142,7 @@ GameObject:
   - component: {fileID: 1788503372187077475}
   m_Layer: 0
   m_Name: skyscraperA_cell.032
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3253,7 +3253,7 @@ GameObject:
   - component: {fileID: 2778858139924403800}
   m_Layer: 0
   m_Name: skyscraperA_cell.021
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3366,7 +3366,7 @@ GameObject:
   - component: {fileID: 274403771819394218}
   m_Layer: 0
   m_Name: skyscraperA_cell.034
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3479,7 +3479,7 @@ GameObject:
   - component: {fileID: 659309385439710418}
   m_Layer: 0
   m_Name: skyscraperA_cell.008
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3593,7 +3593,7 @@ GameObject:
   - component: {fileID: 3405590169303468898}
   m_Layer: 0
   m_Name: skyscraperA_cell.026
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3706,7 +3706,7 @@ GameObject:
   - component: {fileID: 8021818538874025403}
   m_Layer: 0
   m_Name: skyscraperA_cell.042
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3819,7 +3819,7 @@ GameObject:
   - component: {fileID: 1563081089444803885}
   m_Layer: 0
   m_Name: skyscraperA_cell.002
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3931,7 +3931,7 @@ GameObject:
   - component: {fileID: 1962650145226238887}
   m_Layer: 0
   m_Name: skyscraperA_cell.045
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4044,7 +4044,7 @@ GameObject:
   - component: {fileID: 2079730135058032395}
   m_Layer: 0
   m_Name: skyscraperA_cell.054
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4156,7 +4156,7 @@ GameObject:
   - component: {fileID: 4590362706624640008}
   m_Layer: 0
   m_Name: skyscraperA_cell.051
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4269,7 +4269,7 @@ GameObject:
   - component: {fileID: 752270715255008064}
   m_Layer: 0
   m_Name: skyscraperA_cell.029
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4382,7 +4382,7 @@ GameObject:
   - component: {fileID: 4924304278668590370}
   m_Layer: 0
   m_Name: skyscraperA_cell.022
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4495,7 +4495,7 @@ GameObject:
   - component: {fileID: 2551358236179468247}
   m_Layer: 0
   m_Name: skyscraperA_cell.006
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4606,7 +4606,7 @@ GameObject:
   - component: {fileID: 2894092973854118815}
   m_Layer: 0
   m_Name: skyscraperA_cell.028
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4719,7 +4719,7 @@ GameObject:
   - component: {fileID: 7852396056419735812}
   m_Layer: 0
   m_Name: skyscraperA_cell.036
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4832,7 +4832,7 @@ GameObject:
   - component: {fileID: 46217641134073361}
   m_Layer: 0
   m_Name: skyscraperA_cell.047
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4944,7 +4944,7 @@ GameObject:
   - component: {fileID: 4402921288539540344}
   m_Layer: 0
   m_Name: skyscraperA_cell.009
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5056,7 +5056,7 @@ GameObject:
   - component: {fileID: 2840529125823506404}
   m_Layer: 0
   m_Name: skyscraperA_cell.027
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5167,7 +5167,7 @@ GameObject:
   - component: {fileID: 6602977667391464052}
   m_Layer: 0
   m_Name: skyscraperA_cell.005
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5280,7 +5280,7 @@ GameObject:
   - component: {fileID: 4229180251492913339}
   m_Layer: 0
   m_Name: skyscraperA_cell.056
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5393,7 +5393,7 @@ GameObject:
   - component: {fileID: 6322237861287338079}
   m_Layer: 0
   m_Name: skyscraperA_cell.035
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5506,7 +5506,7 @@ GameObject:
   - component: {fileID: 573248374950080285}
   m_Layer: 0
   m_Name: skyscraperA_cell.049
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5617,7 +5617,7 @@ GameObject:
   - component: {fileID: 7139331431038003399}
   m_Layer: 0
   m_Name: skyscraperA_cell.019
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5730,7 +5730,7 @@ GameObject:
   - component: {fileID: 8878397005681774647}
   m_Layer: 0
   m_Name: skyscraperA_cell.015
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5842,7 +5842,7 @@ GameObject:
   - component: {fileID: 732834934149651167}
   m_Layer: 0
   m_Name: skyscraperA_cell.025
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5953,7 +5953,7 @@ GameObject:
   - component: {fileID: 5066196251930115751}
   m_Layer: 0
   m_Name: skyscraperA_cell.039
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6064,7 +6064,7 @@ GameObject:
   - component: {fileID: 1127357383417742348}
   m_Layer: 0
   m_Name: skyscraperA_cell.044
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6175,7 +6175,7 @@ GameObject:
   - component: {fileID: 166963719159082817}
   m_Layer: 0
   m_Name: skyscraperA_cell.058
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

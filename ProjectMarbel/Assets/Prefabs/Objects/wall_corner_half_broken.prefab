@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8895171607804102982}
   m_Layer: 0
   m_Name: wall-corner-half_cell.024
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 3712328501083334943}
   m_Layer: 0
   m_Name: wall-corner-half_cell.036
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 8807488260310271232}
   m_Layer: 0
   m_Name: wall-corner-half_cell.019
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 3607115022500898543}
   m_Layer: 0
   m_Name: wall-corner-half_cell
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 8606439034598821770}
   m_Layer: 0
   m_Name: wall-corner-half_cell.007
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 4540864241490690854}
   m_Layer: 0
   m_Name: wall-corner-half_cell.042
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 6779285411022199129}
   m_Layer: 0
   m_Name: wall-corner-half_cell.034
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 2662274807228014788}
   m_Layer: 0
   m_Name: wall-corner-half_cell.037
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 7015335417043929735}
   m_Layer: 0
   m_Name: wall-corner-half_cell.035
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 4283848471204682273}
   m_Layer: 0
   m_Name: wall-corner-half_cell.017
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1125,7 +1125,7 @@ GameObject:
   - component: {fileID: 9186729205761715248}
   m_Layer: 0
   m_Name: wall-corner-half_cell.008
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1236,7 +1236,7 @@ GameObject:
   - component: {fileID: 4799497984511965767}
   m_Layer: 0
   m_Name: wall-corner-half_cell.021
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 4687344514612014269}
   m_Layer: 0
   m_Name: wall-corner-half_cell.009
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1458,7 +1458,7 @@ GameObject:
   - component: {fileID: 8918076099343071286}
   m_Layer: 0
   m_Name: wall-corner-half_cell.040
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1569,7 +1569,7 @@ GameObject:
   - component: {fileID: 6636122251327005834}
   m_Layer: 0
   m_Name: wall-corner-half_cell.014
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1680,7 +1680,7 @@ GameObject:
   - component: {fileID: 8656564338386056731}
   m_Layer: 0
   m_Name: wall-corner-half_cell.010
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1865,7 +1865,7 @@ GameObject:
   - component: {fileID: 7813462387439693148}
   m_Layer: 0
   m_Name: wall-corner-half_cell.011
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1976,7 +1976,7 @@ GameObject:
   - component: {fileID: 6437566307309307613}
   m_Layer: 0
   m_Name: wall-corner-half_cell.022
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2087,7 +2087,7 @@ GameObject:
   - component: {fileID: 756719685044311835}
   m_Layer: 0
   m_Name: wall-corner-half_cell.030
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2198,7 +2198,7 @@ GameObject:
   - component: {fileID: 8150242914005896559}
   m_Layer: 0
   m_Name: wall-corner-half_cell.023
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2309,7 +2309,7 @@ GameObject:
   - component: {fileID: 4371693387689541676}
   m_Layer: 0
   m_Name: wall-corner-half_cell.002
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2420,7 +2420,7 @@ GameObject:
   - component: {fileID: 331083951739270478}
   m_Layer: 0
   m_Name: wall-corner-half_cell.038
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2531,7 +2531,7 @@ GameObject:
   - component: {fileID: 1652314287721349896}
   m_Layer: 0
   m_Name: wall-corner-half_cell.028
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2642,7 +2642,7 @@ GameObject:
   - component: {fileID: 4264710636848675283}
   m_Layer: 0
   m_Name: wall-corner-half_cell.033
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2753,7 +2753,7 @@ GameObject:
   - component: {fileID: 5225373436570786959}
   m_Layer: 0
   m_Name: wall-corner-half_cell.004
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2864,7 +2864,7 @@ GameObject:
   - component: {fileID: 5583532973804480598}
   m_Layer: 0
   m_Name: wall-corner-half_cell.013
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2975,7 +2975,7 @@ GameObject:
   - component: {fileID: 4992215577279354237}
   m_Layer: 0
   m_Name: wall-corner-half_cell.029
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3086,7 +3086,7 @@ GameObject:
   - component: {fileID: 2907280964924725363}
   m_Layer: 0
   m_Name: wall-corner-half_cell.016
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3197,7 +3197,7 @@ GameObject:
   - component: {fileID: 6948363418454720004}
   m_Layer: 0
   m_Name: wall-corner-half_cell.015
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3308,7 +3308,7 @@ GameObject:
   - component: {fileID: 5926355552750613574}
   m_Layer: 0
   m_Name: wall-corner-half_cell.026
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3419,7 +3419,7 @@ GameObject:
   - component: {fileID: 7425266478217838065}
   m_Layer: 0
   m_Name: wall-corner-half_cell.043
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3530,7 +3530,7 @@ GameObject:
   - component: {fileID: 3205229905944501396}
   m_Layer: 0
   m_Name: wall-corner-half_cell.020
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3641,7 +3641,7 @@ GameObject:
   - component: {fileID: 3376346433203233857}
   m_Layer: 0
   m_Name: wall-corner-half_cell.005
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3752,7 +3752,7 @@ GameObject:
   - component: {fileID: 5602435714160548258}
   m_Layer: 0
   m_Name: wall-corner-half_cell.003
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3863,7 +3863,7 @@ GameObject:
   - component: {fileID: 5237850019344638602}
   m_Layer: 0
   m_Name: wall-corner-half_cell.039
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3974,7 +3974,7 @@ GameObject:
   - component: {fileID: 262019717528185759}
   m_Layer: 0
   m_Name: wall-corner-half_cell.032
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4085,7 +4085,7 @@ GameObject:
   - component: {fileID: 2427975680978525581}
   m_Layer: 0
   m_Name: wall-corner-half_cell.025
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4196,7 +4196,7 @@ GameObject:
   - component: {fileID: 2008409876006952219}
   m_Layer: 0
   m_Name: wall-corner-half_cell.044
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4307,7 +4307,7 @@ GameObject:
   - component: {fileID: 9111800541023238858}
   m_Layer: 0
   m_Name: wall-corner-half_cell.031
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4418,7 +4418,7 @@ GameObject:
   - component: {fileID: 4977240475826278232}
   m_Layer: 0
   m_Name: wall-corner-half_cell.006
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4529,7 +4529,7 @@ GameObject:
   - component: {fileID: 4020752323609550759}
   m_Layer: 0
   m_Name: wall-corner-half_cell.001
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4640,7 +4640,7 @@ GameObject:
   - component: {fileID: 7500141647894490455}
   m_Layer: 0
   m_Name: wall-corner-half_cell.027
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4751,7 +4751,7 @@ GameObject:
   - component: {fileID: 4568599153082480934}
   m_Layer: 0
   m_Name: wall-corner-half_cell.018
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4862,7 +4862,7 @@ GameObject:
   - component: {fileID: 1205015427224054572}
   m_Layer: 0
   m_Name: wall-corner-half_cell.045
-  m_TagString: Untagged
+  m_TagString: Building Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

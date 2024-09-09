@@ -19,7 +19,7 @@ public class PersistentDataManager : MonoBehaviour
     public AudioClip mainMenuMusic;
     public AudioClip inGameMusic;
     public AudioClip victoryMusic;
-    
+
     [Header("Player Scores")]
     public int player1Score;
     public int player2Score;
@@ -85,6 +85,25 @@ public class PersistentDataManager : MonoBehaviour
             Debug.LogError("Invalid player index! Use 1 or 2.");
             return 0;
         }
+    }
+    public void AddScore(int playerIndex, int score)
+    {
+        if (playerIndex == 1)
+        {
+            player1Score += score;
+        }
+        else if (playerIndex == 2)
+        {
+            player2Score += score;
+        }
+        else
+        {
+            Debug.LogError("Invalid player index! Use 1 or 2.");
+        }
+    }
+    public int GetCurrentPlayer()
+    {
+        return currentPlayer;
     }
 
     // Method to Set Current Player

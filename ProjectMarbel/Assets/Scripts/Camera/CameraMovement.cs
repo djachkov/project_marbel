@@ -24,7 +24,6 @@ public class CameraMovement : MonoBehaviour
         {
             // Allow rotation when right mouse button is pressed
             UpdateCameraDistance(viewDistance);
-            Debug.Log("Rotating camera: " + freeLookCamera.name);
             freeLookCamera.m_XAxis.m_MaxSpeed = 200f;
             freeLookCamera.m_YAxis.m_MaxSpeed = 2f; // Adjust speed as needed
         }

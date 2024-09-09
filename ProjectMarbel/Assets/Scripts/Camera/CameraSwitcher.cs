@@ -14,7 +14,6 @@ public class CameraSwitcher : MonoBehaviour
             currentCamera = playerCameras[0];
             currentCamera.gameObject.SetActive(true);
             playerCameras[1].gameObject.SetActive(false);
-            Debug.Log("Initial Camera: " + currentCamera.name);
         }
         else
         {
