@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Transform MarbelPosition;
 
-    [Header ("Spawning Data")]
+    [Header("Spawning Data")]
     [SerializeField]
     private GameObject currentSpawnTile;
     [SerializeField]
@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
     private string playerName = "";
     private Rigidbody Marbel;
     private bool isActive = false;
-    
+    private bool mouseUpCatched = false;
     private int deathCase = 0;
 
     // Default starting force
@@ -79,7 +79,6 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Controlling Player: " + playerName);
             initialMousePosition = Input.mousePosition;
         }
         if (Input.GetMouseButton(0))
@@ -88,11 +87,18 @@ public class PlayerController : MonoBehaviour
             Vector3 marbelVelocity = aimDirection / Marbel.mass;  // Pre-calculate trajectory with current Marbel mass
             trajectoryDrawer.DrawTrajectory(marbelVelocity, MarbelPosition.position);  // Draw trajectory
         }
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && !mouseUpCatched)
         {
-            // Applying force to Marbel and resetting the trajectory drawer. 
+            // Applying force to Marbel and resetting the trajectory drawer.
             ApplyForce(aimDirection);
+            isActive = false;
+            GameManager.Instance.SwitchPlayer();
+            mouseUpCatched = true;
             trajectoryDrawer.DisableLineRenderer();
+        }
+        if (Input.GetMouseButtonUp(0) == false)
+        {
+            mouseUpCatched = false;
         }
     }
 
@@ -130,11 +136,9 @@ public class PlayerController : MonoBehaviour
 
     public void LoadPlayerData(int index)
     {
-        Debug.Log("Loading player data");
         playerIndex = index;
         playerName = PersistentDataManager.Instance.GetPlayerName(playerIndex);
         score = PersistentDataManager.Instance.GetPlayerScore(playerIndex);
-        Debug.Log($"Player {playerIndex} loaded: {playerName}, {score}");
     }
 
     void ApplyForce(Vector3 force)
@@ -146,7 +150,8 @@ public class PlayerController : MonoBehaviour
     public void ActivatePlayer()
     {
         isActive = true;
-        Debug.Log("Player activated: " + playerName);
+        aimDirection = new Vector3(0, 0, 0);
+
     }
 
     public void DeactivatePlayer()
@@ -176,7 +181,7 @@ public class PlayerController : MonoBehaviour
         return playerName;
     }
 
-    void OnCollisionEnter (Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.name == "water_lvl_1")
         {
@@ -209,11 +214,11 @@ public class PlayerController : MonoBehaviour
         return deathCase;
     }
 
-    public void ChangeLevel (int playerIndex, int deathCase)
+    public void ChangeLevel(int playerIndex, int deathCase)
     {
         if (playerIndex == 1)
         {
-            if (deathCase ==1)
+            if (deathCase == 1)
             {
                 currentSpawnTile = GameObject.Find("spawn_tile_L2_P1");
                 MarbelPosition.position = currentSpawnTile.transform.position + new Vector3(0.0f, spawnHeightOffset, 0.0f);

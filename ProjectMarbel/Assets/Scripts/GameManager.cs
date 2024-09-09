@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     public PlayerUIManager playerUIManager;
     [SerializeField]
-    private float switchTimer = 10f;
+    private float switchTimer = 20f;
     private void Awake()
     {
         if (Instance == null)
@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
         player2.LoadPlayerData(2);
         player1.ActivatePlayer();
         player2.DeactivatePlayer();
+        PersistentDataManager.Instance.SetCurrentPlayer(1);
         Debug.Log("Active player: " + activePlayer.GetPlayerName());
         playerUIManager.UpdatePlayerName(activePlayer.GetPlayerName());
         // TODO: Implement score tracking
@@ -53,33 +54,31 @@ public class GameManager : MonoBehaviour
     public void PlayerDied()
     {
         int currentDeathCase = activePlayer.GetDeathCase();
-        activePlayer.DeactivatePlayer();
         SwitchPlayer();
         activePlayer.ChangeLevel(activePlayer.GetPlayerIndex(), currentDeathCase);
     }
 
-    void SwitchPlayer()
+    public void SwitchPlayer()
     {
         CancelInvoke("SwitchPlayer");
-        Debug.Log("Switching player");
-        Debug.Log("Active player: " + activePlayer.GetPlayerName());
+        Debug.Log("Switching player" + activePlayer.GetPlayerName());
         // Switch active player
-        if (activePlayer == player1)
+
+        player1.DeactivatePlayer();
+        player2.DeactivatePlayer();
+        if (PersistentDataManager.Instance.GetCurrentPlayer() == 1)
         {
             activePlayer = player2;
         }
         else
         {
             activePlayer = player1;
+
         }
-        // int nextPlayer = PersistentDataManager.Instance.GetCurrentPlayer() == 1 ? 2 : 1;
-        // PersistentDataManager.Instance.SetCurrentPlayer(nextPlayer);
-        // Debug.Log("CURRENT PLAYER " + nextPlayer);
-
-
-        player1.DeactivatePlayer();
-        player2.DeactivatePlayer();
         activePlayer.ActivatePlayer();
+        PersistentDataManager.Instance.SetCurrentPlayer(activePlayer.GetPlayerIndex());
+
+        Debug.Log("New PLayer: " + activePlayer.GetPlayerName() + " " + activePlayer.GetPlayerIndex());
         if (cameraSwitcher != null)
         {
             cameraSwitcher.SwitchToNextPlayer(activePlayer.GetPlayerIndex());
